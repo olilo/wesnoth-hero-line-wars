@@ -1,0 +1,7 @@
+# backup files created by text editors
+*~
+*.bak
+*.swp
+
+# don't know where this comes from
+gmon.out
