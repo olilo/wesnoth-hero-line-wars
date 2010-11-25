@@ -1,0 +1,23 @@
+Wesnoth 1.6+ Map that attempts to be similar to the Warcraft 3 Map "Hero Line Wars".
+
+What's done:
+  - only that recruiting moves your units on the enemy lane, nothing else yet
+
+What is to come:
+  - a Shop system
+  - a better map
+  - a bit of Story (i've got an idea here, but nothing more yet)
+
+Installation Linux:
+cp -r Hero_Line_Wars ~/.wesnoth/data/campaigns
+echo "[binary_path]
+    path=data/campaigns/Hero_Line_Wars
+[/binary_path]
+
+#ifdef MULTIPLAYER
+    {@campaigns/Hero_Line_Wars}
+[+units]
+    {@campaigns/Hero_Line_Wars/units}
+[/units]
+#endif
+" > ~/.wesnoth/data/campaigns/Hero_Line_Wars.cfg
