@@ -9,4 +9,7 @@ What is to come:
   - a bit of Story (i've got an idea here, but nothing more yet)
 
 Installation Linux:
-git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth/data/add-ons/hero-line-wars
+git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth1.8/data/add-ons/hero-line-wars
+
+If you have a newer wesnoth version then you have to change the data folder of wesnoth to ~/.wesnoth<version>.
+See also: http://wiki.wesnoth.org/EditingWesnoth#Where_is_my_user_data_directory.3F
