@@ -9,15 +9,4 @@ What is to come:
   - a bit of Story (i've got an idea here, but nothing more yet)
 
 Installation Linux:
-cp -r Hero_Line_Wars ~/.wesnoth/data/campaigns
-echo "[binary_path]
-    path=data/campaigns/Hero_Line_Wars
-[/binary_path]
-
-#ifdef MULTIPLAYER
-    {@campaigns/Hero_Line_Wars}
-[+units]
-    {@campaigns/Hero_Line_Wars/units}
-[/units]
-#endif
-" > ~/.wesnoth/data/campaigns/Hero_Line_Wars.cfg
+git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth/data/add-ons/hero-line-wars
