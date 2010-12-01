@@ -6,11 +6,17 @@ What's done:
 What is to come:
   - a Shop system
   - a better map
-    - lanes should converge, only 1 ultimate boss at end of that lane
+    - lanes should converge, only 1 ultimate boss (lich) at end of that lane
     - move castle/summoning grounds to end of lanes
     - general: some variance in the lanes to allow tactical combat
   - a bit of Story (i've got an idea here, but nothing more yet)
     - idea: Lich at end of lanes wants both groups to wipe each other out. why? well, that's the big question right now
+  - victory conditions
+    - kill the lich
+    - all enemy heroes die (excluding the lich)
+  - defeat conditions
+    - enemy team kills lich
+    - your hero and all allied heroes die
 
 Installation Linux:
 git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth1.8/data/add-ons/hero-line-wars
