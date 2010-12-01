@@ -11,12 +11,16 @@ What is to come:
     - general: some variance in the lanes to allow tactical combat
   - a bit of Story (i've got an idea here, but nothing more yet)
     - idea: Lich at end of lanes wants both groups to wipe each other out. why? well, that's the big question right now
+  - circle at end of each lane, creeps want to reach circle or kill heroes on the way to it
+  - lifes: each team has x lifes, if creeps reach circle then team loses 1 life
   - victory conditions
     - kill the lich
     - all enemy heroes die (excluding the lich)
+    - enemy team runs out of lifes
   - defeat conditions
     - enemy team kills lich
     - your hero and all allied heroes die
+    - your team runs out of lifes
 
 Installation Linux:
 git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth1.8/data/add-ons/hero-line-wars
