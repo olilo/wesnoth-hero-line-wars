@@ -1,29 +1,35 @@
 Wesnoth 1.8+ Map that attempts to be similar to the Warcraft 3 Map "Hero Line Wars".
 
+Concept:
+  - There are two teams of up to three players
+  - Teams have a fixed number of life points
+  - Teams have an area of the map called »lane«
+  - Lanes join up at the start
+  - At the very start of the lanes, there is one unmovable boss, a lich
+  - Players have 1 hero on her own team’s lane
+  - Players can recruit units, called »creeps«; recruited units are sent to the enemy team’s lane.
+  - Creeps try to reach the end of the enemy lane; if they succeed, the enemy team loses one life.
+  - If a team’s life counter is reduced to zero, that team has lost.
+  - If all heroes of a team are killed, that team has lost.
+  - If a team kills the lich, that team has won.
+
 What's done:
   - only that recruiting moves your units on the enemy lane, nothing else yet
+
+Next steps:
+  - Implement (creep-based) win conditions; check whether creeps walk to the end of the line
+  - Add lich, implement lich-based win condition
 
 What is to come:
   - a Shop system
   - a better map
-    - lanes should converge, only 1 ultimate boss (lich) at end of that lane
     - move castle/summoning grounds to end of lanes
     - general: some variance in the lanes to allow tactical combat
   - a bit of Story (i've got an idea here, but nothing more yet)
     - idea: Lich at end of lanes wants both groups to wipe each other out. why? well, that's the big question right now
-  - circle at end of each lane, creeps want to reach circle or kill heroes on the way to it
-  - lifes: each team has x lifes, if creeps reach circle then team loses 1 life
-  - victory conditions
-    - kill the lich
-    - all enemy heroes die (excluding the lich)
-    - enemy team runs out of lifes
-  - defeat conditions
-    - enemy team kills lich
-    - your hero and all allied heroes die
-    - your team runs out of lifes
 
 Installation Linux:
 git clone git://github.com/olilo/wesnoth-hero-line-wars.git ~/.wesnoth1.8/data/add-ons/hero-line-wars
 
-If you have a newer wesnoth version then you have to change the data folder of wesnoth to ~/.wesnoth<version>.
+If you have an older wesnoth version, you might have to change the data folder of wesnoth to ~/.wesnoth/.
 See also: http://wiki.wesnoth.org/EditingWesnoth#Where_is_my_user_data_directory.3F
